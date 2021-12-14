@@ -38,7 +38,7 @@ public class FlowDriver {
 
 
         //设置数据的输入和输出路径
-        FileInputFormat.setInputPaths(job,new Path("D:\\input"));
+        FileInputFormat.setInputPaths(job,new Path("D:\\input\\phone"));
         FileOutputFormat.setOutputPath(job,new Path("D:\\output"));
 
         //提交job

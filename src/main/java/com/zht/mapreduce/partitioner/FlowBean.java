@@ -7,6 +7,7 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 
+//这个是分区
 //重写序列化和反序列化方法
 public class FlowBean implements Writable {
     private long upFlow; //上行流量
